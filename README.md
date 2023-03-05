@@ -21,4 +21,3 @@ Portfolio Link : https://nimeshurkude.netlify.app/
 
 ## Projects
 ![projects](https://user-images.githubusercontent.com/112500211/213843899-9e5b7c47-8a4c-4ec8-8d5b-9694357954c8.png)
-# Portfolio
