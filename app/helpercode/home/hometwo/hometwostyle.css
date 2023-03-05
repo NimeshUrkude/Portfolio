@@ -1,0 +1,53 @@
+.hometwo-div{
+    background-color: white;
+}
+
+.hometwo_heading{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Martian Mono', monospace;
+    text-shadow: 5px 5px 9px rgba(150, 150, 150, 1);
+}
+
+.hometwo_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    word-spacing: 5px;
+}
+
+.hometwo_p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hometwo_b{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.hometwo_img{
+    border-radius: 20px;
+    padding: 0px;
+    width: 100%;
+
+    -webkit-box-shadow: 18px 18px 17px -4px rgba(0,0,0,0.55);
+    -moz-box-shadow: 18px 18px 17px -4px rgba(0,0,0,0.55);
+    box-shadow: 18px 18px 17px -4px rgba(0,0,0,0.55);
+}
+
+
+@media (min-width:10px) and (max-width:768px) {
+    .hometwo_img{
+        margin-top: 40px;
+    }
+    .hometwo_details{
+        word-spacing: 2px;
+    }
+}

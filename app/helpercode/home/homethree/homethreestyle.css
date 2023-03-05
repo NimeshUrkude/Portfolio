@@ -1,0 +1,79 @@
+.homethree_div{
+    width: 100%;
+    color: white;
+}
+
+.homethree_heading{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+    font-family: 'Martian Mono', monospace;
+    font-weight: 400;
+    text-shadow: 5px 5px 9px rgba(150, 150, 150, 1);
+}
+
+.homethree_box_outer{
+    background-color: black;
+    padding: 0px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin: 30px;
+
+    -webkit-box-shadow: 18px 18px 17px -4px rgba(0,0,0,0.55);
+-moz-box-shadow: 18px 18px 17px -4px rgba(0,0,0,0.55);
+box-shadow: 18px 18px 17px -4px rgba(0,0,0,0.55);
+}
+
+.homethree_box_outer_heading{
+    font-size: 24px;
+    font-family: 'Martian Mono', monospace;
+    font-weight: 200;
+}
+
+.homethree_box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.homethree_box_inner_name{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.homethree_box_inner_img{
+    height:70px;
+    padding:5px;
+}
+
+@media (min-width:768px) and (max-width:1000px) {
+    .homethree_box_inner_img{
+        height:60px;
+        padding:5px;
+    }
+    .homethree_box_outer{
+        margin: 15px;
+    }
+    .homethree_box_inner_name{
+        font-size: 14px;
+    }
+}
+
+@media (min-width:320px) and (max-width:475px) {
+    .homethree_box_inner_img{
+        height:55px;
+    }
+    .homethree_box_inner_name{
+        font-size: 12px;
+    }
+}
+
+@media (min-width:10px) and (max-width:320px) {
+    .homethree_box_inner_img{
+        height:48px;
+    }
+    .homethree_box_inner_name{
+        font-size: 10px;
+    }
+}
