@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This Repository is of Portfolio Website build on RemixJS. Portfolio Website is hosted on Netlify.
+This Repository is of a Portfolio Website built on RemixJS. RemixJS is a modern web framework designed to simplify the development of high-performance, interactive web applications. It provides a comprehensive set of features, making it easy to create dynamic and engaging websites. The Portfolio Website is hosted on Netlify, an easy-to-use platform for hosting and deploying websites. Netlify provides a reliable, secure, and easy-to-use platform for hosting websites, allowing users to quickly and easily deploy their websites online. It also provides a range of features to help users manage their websites and ensure their websites remain secure and performant.
 
 Portfolio Link : https://nimeshurkude.netlify.app/
 
