@@ -9,6 +9,8 @@ import chatroom from "app/helpercode/project/img/chatroom.jpg";
 import rvf from "app/helpercode/project/img/rvf.jpg";
 import mm from "app/helpercode/project/img/mm.jpg";
 import aii from "app/helpercode/project/img/aii.jpg";
+import shop from "app/helpercode/project/img/shop.jpg";
+import bank from "app/helpercode/project/img/bank.jpg";
 
 
 const data = [
@@ -66,6 +68,18 @@ const data = [
     description : "This is a highly accurate <b>TensorFlow model</b> for image classification, achieving <b>97.5% accuracy</b>. The model is showcased using <b>React</b> and hosted on <b>GitHub</b>, allowing easy access and testing for users. The technology used ensures efficient and reliable classification of images.",
     url:"https://nimeshurkude.github.io/Image_Classification_Model/",
   },
+  {
+    img:shop,
+    title:"Shop App",
+    description : "This is a Shop App built using <b>React Native</b> and <b>Typescript</b>. It utilizes the Faker API to enhance the app's functionality and generate realistic data ",
+    url:"https://github.com/NimeshUrkude/Fake_Shop_App",
+  },
+  {
+    img:bank,
+    title:"Bank Website",
+    description:"This is Bank website developed using <b>RemixJS</b> and <b>TypeScript</b>. The website is meticulously designed to emulate the fundamental functionalities of a real bank, providing users with options to <b>create accounts</b>, <b>credit</b> and <b>debit money</b>, and facilitate seamless <b>money transfers</b>.",
+    url:"https://bankcred.netlify.app/",
+  }
 ]
 
 
@@ -92,7 +106,10 @@ export default function Project() {
         <Partb data={data[7]}/>
         <hr className="project_box_hr"/>
         <Parta data={data[8]}/>
-
+        <hr className="project_box_hr"/>
+        <Partb data={data[9]}/>
+        <hr className="project_box_hr"/>
+        <Parta data={data[10]}/>
       </div>
       <div style={{padding:"30px"}}/>
     </motion.div>

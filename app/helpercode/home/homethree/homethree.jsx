@@ -1,4 +1,4 @@
-import c from "./img/c.png";
+import typescript from "./img/typescript.png";
 import cpp from "./img/cpp.png";
 import javas from "./img/js.png";
 import py from "./img/python.png";
@@ -31,9 +31,9 @@ export default function Homethree() {
       <div className="homethree_box_outer">
         <p className="homethree_box_outer_heading">Language</p>
         <div className="homethree_box">
-          <div className="homethree_box_inner"><img className="homethree_box_inner_img" src={c}/><p className="homethree_box_inner_name">C</p></div>
-          <div className="homethree_box_inner"><img className="homethree_box_inner_img" src={cpp}/><p className="homethree_box_inner_name">C++</p></div>
+          <div className="homethree_box_inner"><img className="homethree_box_inner_img" src={cpp}/><p className="homethree_box_inner_name">C/C++</p></div>
           <div className="homethree_box_inner"><img className="homethree_box_inner_img" src={javas}/><p className="homethree_box_inner_name">Javascript</p></div>
+          <div className="homethree_box_inner"><img className="homethree_box_inner_img" src={typescript}/><p className="homethree_box_inner_name">Typescript</p></div>
           <div className="homethree_box_inner"><img className="homethree_box_inner_img" src={py}/><p className="homethree_box_inner_name">Python</p></div>
           <div className="homethree_box_inner"><img className="homethree_box_inner_img" src={dart}/><p className="homethree_box_inner_name">Dart</p></div>
         </div>
